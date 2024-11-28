@@ -5,8 +5,8 @@ void Quadrangle::print_output()
 {
 	if (sides_count == 4)
 	{
-		std::cout << "Ñòîðîíû: a=" << a << " b=" << b << " c=" << c << " d=" << d << std::endl;
-		std::cout << "Óãëû: A=" << A << " B=" << B << " C=" << C << " D=" << D << std::endl;
+		std::cout << "Ð¡Ñ‚Ð¾Ñ€Ð¾Ð½Ñ‹: a=" << a << " b=" << b << " c=" << c << " d=" << d << std::endl;
+		std::cout << "Ð£Ð³Ð»Ñ‹: A=" << A << " B=" << B << " C=" << C << " D=" << D << std::endl;
 	}
 }
 

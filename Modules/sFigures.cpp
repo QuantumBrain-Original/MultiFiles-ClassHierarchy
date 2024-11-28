@@ -3,7 +3,7 @@
 
 void Figure::print_output()
 {
-	std::cout << "Ñòîğîíû: Íåò\n" << "Óãëû: Íåò\n" << std::endl;
+	std::cout << "Ğ¡Ñ‚Ğ¾Ñ€Ğ¾Ğ½Ñ‹: ĞĞµÑ‚\n" << "Ğ£Ğ³Ğ»Ñ‹: ĞĞµÑ‚" << std::endl;
 }
 
 Figure::Figure() : sides_count(0) {}

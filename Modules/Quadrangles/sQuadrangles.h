@@ -1,8 +1,8 @@
 #pragma once
 #include "../sFigures.h"
 
-// фигуры с 4 углами
-class Quadrangle : public Figure // Четырехугольник
+// С„РёРіСѓСЂС‹ СЃ 4 СѓРіР»Р°РјРё
+class Quadrangle : public Figure // Р§РµС‚С‹СЂРµС…СѓРіРѕР»СЊРЅРёРє
 {
 protected:
 	unsigned int a, b, c, d, A, B, C, D;

@@ -1,7 +1,7 @@
 #pragma once
 #include "sQuadrangles.h"
 
-class Parallelogram : public Quadrangle // Параллелограмм (стороны a,c и b,d попарно равны, углы A,C и B,D попарно равны)
+class Parallelogram : public Quadrangle // РџР°СЂР°Р»Р»РµР»РѕРіСЂР°РјРј (СЃС‚РѕСЂРѕРЅС‹ a,c Рё b,d РїРѕРїР°СЂРЅРѕ СЂР°РІРЅС‹, СѓРіР»С‹ A,C Рё B,D РїРѕРїР°СЂРЅРѕ СЂР°РІРЅС‹)
 {
 public:
 	Parallelogram(int sideA = 0, int sideB = 0, int angleA = 0, int angleB = 0);

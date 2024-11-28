@@ -1,7 +1,7 @@
 #pragma once
 #include "sRectangles.h"
 
-class Square : public Rectangles // Квадрат (все стороны равны, все углы равны 90)
+class Square : public Rectangles // РљРІР°РґСЂР°С‚ (РІСЃРµ СЃС‚РѕСЂРѕРЅС‹ СЂР°РІРЅС‹, РІСЃРµ СѓРіР»С‹ СЂР°РІРЅС‹ 90)
 {
 public:
 	Square(int sideA = 0);

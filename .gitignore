@@ -2,8 +2,6 @@
 MultiFil.ca23c281/
 MultiFiles-ClassHierarchy/
 x64/
-*.sln
-*.vcxproj
 *.filters
 *.user
 .gitattributes

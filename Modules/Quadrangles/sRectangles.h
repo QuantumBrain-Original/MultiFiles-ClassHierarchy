@@ -1,7 +1,7 @@
 #pragma once
 #include "sParallelograms.h"
 
-class Rectangles : public Parallelogram // Прямоугольник (стороны a,c и b,d попарно равны, все углы равны 90)
+class Rectangles : public Parallelogram // РџСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє (СЃС‚РѕСЂРѕРЅС‹ a,c Рё b,d РїРѕРїР°СЂРЅРѕ СЂР°РІРЅС‹, РІСЃРµ СѓРіР»С‹ СЂР°РІРЅС‹ 90)
 {
 public:
 	Rectangles(int sideA = 0, int sideB = 0);

@@ -1,7 +1,7 @@
 #pragma once
 #include "../sFigures.h"
 
-// фигуры с 3 углами
+// С„РёРіСѓСЂС‹ СЃ 3 СѓРіР»Р°РјРё
 class Triangle : public Figure
 {
 protected:

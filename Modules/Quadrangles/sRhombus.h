@@ -1,7 +1,7 @@
 #pragma once
 #include "sParallelograms.h"
 
-class Rhombus : public Parallelogram // Ромб (все стороны равны, углы A,C и B,D попарно равны)
+class Rhombus : public Parallelogram // Р РѕРјР± (РІСЃРµ СЃС‚РѕСЂРѕРЅС‹ СЂР°РІРЅС‹, СѓРіР»С‹ A,C Рё B,D РїРѕРїР°СЂРЅРѕ СЂР°РІРЅС‹)
 {
 public:
 	Rhombus(int sideA = 0, int angleA = 0, int angleB = 0);

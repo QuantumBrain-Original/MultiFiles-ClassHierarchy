@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <Windows.h>
 
 #include "Modules/sFigures.h"
@@ -22,11 +22,13 @@ void print_info(Figure* objFigure)
 		std::cout << "Ошибка чтения указателя!\n";
 }
 
-int main() // Задача 2. Фигуры. Стороны и углы
+int main() // Задача 3. Фигуры. Стороны и углы
 {
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
-	setlocale(LC_ALL, "Russian");
+//	SetConsoleCP(1251);
+//	SetConsoleOutputCP(1251);
+	SetConsoleCP(CP_UTF8);
+	SetConsoleOutputCP(CP_UTF8);
+//	setlocale(LC_ALL, "Russian");
 
 	Figure* unkFigure = new Figure{};
 	Triangle* triengle = new Triangle{ 10, 20, 30, 50, 60, 70 };
@@ -37,7 +39,7 @@ int main() // Задача 2. Фигуры. Стороны и углы
 	std::cout << "Фигура:" << std::endl;
 	print_info(unkFigure);
 
-	std::cout << "Треугольник:" << std::endl;
+	std::cout << "\nТреугольник:" << std::endl;
 	print_info(triengle);
 
 	std::cout << "\nПрямоугольный треугольник:" << std::endl;

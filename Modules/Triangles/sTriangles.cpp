@@ -5,8 +5,8 @@ void Triangle::print_output() //override
 {
 	if (sides_count == 3)
 	{
-		std::cout << "Ñòîðîíû: a=" << a << " b=" << b << " c=" << c << std::endl;
-		std::cout << "Óãëû: A=" << A << " B=" << B << " C=" << C << std::endl;
+		std::cout << "Ð¡Ñ‚Ð¾Ñ€Ð¾Ð½Ñ‹: a=" << a << " b=" << b << " c=" << c << std::endl;
+		std::cout << "Ð£Ð³Ð»Ñ‹: A=" << A << " B=" << B << " C=" << C << std::endl;
 	}
 }
 

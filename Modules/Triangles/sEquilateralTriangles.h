@@ -1,7 +1,7 @@
 #pragma once
 #include "sTriangles.h"
 
-class EquilateralTriangle : public Triangle // Равносторонний треугольник (все стороны равны, все углы равны 60)
+class EquilateralTriangle : public Triangle // Р Р°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє (РІСЃРµ СЃС‚РѕСЂРѕРЅС‹ СЂР°РІРЅС‹, РІСЃРµ СѓРіР»С‹ СЂР°РІРЅС‹ 60)
 {
 public:
 	EquilateralTriangle(int sideA = 0);
